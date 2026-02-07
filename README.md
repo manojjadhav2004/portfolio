@@ -1,6 +1,6 @@
 # eResume - Personal Portfolio Website
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Showcase your projects, skills, and experience with smooth animations and a beautiful UI.
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Showcase my projects, skills, and experience with smooth animations and a beautiful UI.
 
 ## 🚀 Features
 
@@ -28,7 +28,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/manojjadhav2004/portfolio>
    cd eresume
    ```
 
