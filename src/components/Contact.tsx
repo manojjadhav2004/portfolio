@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Send, Instagram } from 'lucide-react';
 
 interface FormData {
   name: string;
@@ -30,19 +30,19 @@ const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'alex.johnson@email.com',
-      link: 'mailto:alex.johnson@email.com',
+      value: 'heymanojjadhav@gmail.com',
+      link: 'mailto:heymanojjadhav@gmail.com',
     },
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91 9881550575',
+      link: 'tel:+919881550575',
     },
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'india',
       link: null,
     },
   ];
@@ -51,19 +51,25 @@ const Contact: React.FC = () => {
     {
       name: 'GitHub',
       icon: <Github size={24} />,
-      url: 'https://github.com',
+      url: 'https://github.com/manojjadhav2004',
       color: 'hover:text-gray-900 dark:hover:text-white',
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin size={24} />,
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/manojjadhav376/',
       color: 'hover:text-blue-600',
+    },
+    {
+      name: 'Instagram',
+      icon: <Instagram size={24} />,
+      url: 'https://instagram.com/its_unique_mj',
+      color: 'hover:text-pink-600',
     },
     {
       name: 'Email',
       icon: <Mail size={24} />,
-      url: 'mailto:alex.johnson@email.com',
+      url: 'mailto:heymanojjadhav@gmail.com',
       color: 'hover:text-red-500',
     },
   ];

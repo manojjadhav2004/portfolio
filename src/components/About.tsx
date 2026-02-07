@@ -6,21 +6,22 @@ const About: React.FC = () => {
   const timelineItems = [
     {
       year: '2023 - Present',
-      title: 'B.S. Computer Science',
-      institution: 'University of Technology',
-      description: 'Focusing on software engineering, data structures, and full-stack development.',
+      title: 'B.Tech. Computer Science',
+      institution: 'Sanjiavani colledge of engineering, Kopargaon',
+      description: 'Savitribai Phule Pune University, CGPA: 8.0',
+
     },
     {
-      year: '2022',
-      title: 'Full-Stack Development Bootcamp',
-      institution: 'CodeAcademy Pro',
-      description: 'Intensive 12-week program covering React, Node.js, and modern web technologies.',
+      year: '2023',
+      title: 'HSC (Science)',
+      institution: 'Swami mukanand jr. college, yeola',
+      description: 'Savitribai Phule Pune University, Percentage: 72%',
     },
     {
       year: '2021',
-      title: 'High School Diploma',
-      institution: 'Central High School',
-      description: 'Graduated with honors, specializing in mathematics and computer science.',
+      title: 'SSC ',
+      institution: 'Atma Malik English Medium School, Purnagaon',
+      description: 'Savitribai Phule Pune University, Percentage: 90%',
     },
   ];
 
@@ -54,21 +55,12 @@ const About: React.FC = () => {
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a passionate software engineering student with a love for creating
-                innovative web applications. My journey began during high school when
-                I discovered the power of code to solve real-world problems.
+              I’m a Computer Science student who believes in shipping, not just studying. 
+              I’m a vibe coder in the real sense—I use AI as a creative and technical partner to think faster, code smarter, and build better systems. From AI-assisted coding and prompt engineering to integrating predictions into IoT dashboards, I focus on turning ideas into live, usable products.
+              I don’t copy-paste from AI; I direct it....!!
+               My workflow blends strong DSA fundamentals with AI-driven development to move from concept to deployment quickly and cleanly.
               </p>
-              <p>
-                Currently pursuing my Computer Science degree while building practical
-                experience through personal projects and internships. I enjoy working
-                with modern technologies and am always eager to learn new frameworks
-                and tools.
-              </p>
-              <p>
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open-source projects, or mentoring fellow students
-                in programming fundamentals.
-              </p>
+              
             </div>
           </motion.div>
 

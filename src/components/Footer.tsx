@@ -11,17 +11,17 @@ const Footer: React.FC = () => {
     {
       name: 'GitHub',
       icon: <Github size={20} />,
-      url: 'https://github.com',
+      url: 'https://github.com/manojjadhav2004',
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin size={20} />,
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/manojjadhav376/',
     },
     {
       name: 'Email',
       icon: <Mail size={20} />,
-      url: 'mailto:alex.johnson@email.com',
+      url: 'heymanojjadhav@gmail.com',
     },
   ];
 
@@ -36,12 +36,10 @@ const Footer: React.FC = () => {
             viewport={{ once: true }}
             className="mb-8 md:mb-0"
           >
-            <h3 className="text-2xl font-bold mb-2">Alex Johnson</h3>
+            <h3 className="text-2xl font-bold mb-2">Jadhav Manoj</h3>
             <p className="text-gray-400 mb-4">Software Engineering Student</p>
             <div className="flex items-center text-gray-400">
-              <span>Made with</span>
-              <Heart className="mx-2 text-red-500" size={16} fill="currentColor" />
-              <span>using React & Tailwind CSS</span>
+         
             </div>
           </motion.div>
 
@@ -87,7 +85,7 @@ const Footer: React.FC = () => {
           className="border-t border-gray-800 pt-8 mt-8 text-center"
         >
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Alex Johnson. All rights reserved.
+            © {new Date().getFullYear()} Jadhav Manoj. All rights reserved.
           </p>
         </motion.div>
       </div>
