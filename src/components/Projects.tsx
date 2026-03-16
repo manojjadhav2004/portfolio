@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github, Award, Users, TrendingUp, Code, ChevronDown, ChevronUp } from 'lucide-react';
+import { ExternalLink, Github, Award, Users, TrendingUp, Code, ChevronDown, ChevronUp, Store } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const [showMore, setShowMore] = useState(false);
@@ -17,8 +17,7 @@ const Projects: React.FC = () => {
       gradient: 'from-green-500 to-emerald-600',
       highlight: 'Live Platform',
     },
-    {
-      
+    {    
       title: 'Smart Warehouse Temperature Monitoring System',
       description: 'Built an IoT system to monitor real-time temperature in warehouses. Integrated AI-based prediction for future temperature trends. Designed a live dashboard for analytics and alerts.',
       technologies: ['IoT', 'AI', 'Python', 'Arduino', 'Dashboard'],
@@ -47,6 +46,26 @@ const Projects: React.FC = () => {
       icon: Code,
       gradient: 'from-orange-500 to-red-600',
       highlight: 'Live Website',
+    },
+    {
+      title: 'Sri Balaji Traders – Online Rice Store',
+      description:
+        'Developed a customized online rice store for local shop owners to showcase rice varieties, prices, and offers. Implemented a WhatsApp-based order flow, AI chatbot for customer queries, and a mobile installable PWA experience. Built an admin dashboard to manage products, offers, and orders.',
+      technologies: [
+        'React',
+        'Vite',
+        'JavaScript',
+        'Firebase Firestore',
+        'Firebase Auth',
+        'Clerk',
+        'Cloudinary',
+        'PWA',
+      ],
+      githubUrl: 'https://github.com/manojjadhav2004/shop',
+      liveUrl: 'https://sri-balaji-traders-1.web.app/',
+      icon: Store,
+      gradient: 'from-green-500 to-emerald-600',
+      highlight: 'E-commerce + PWA',
     },
     {
       title: 'Attendance Calculator App',
