@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <a
-              href="https://drive.google.com/file/d/1Rz3CavH0bDF9npHPlvm7N0a6a1n1bfGT/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-PIbx9pZkHJ8mSy40TAPR9BUKcVmbYwz/view?usp=drivesdk"
               download
               className="flex items-center px-8 py-4 bg-blue-600 text-white rounded-full font-semibold shadow-lg hover:bg-blue-700 transition-colors"
             >
